@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+h1{
+	background: #e2e2e2;
+	color: #fff;
+	margin: 0;
+
+}
+soeda {
+	background:#fff;
+	color: #e32;
+	font-family:'HG行書体', helvetica, arial, sans-serif;
+	font-size: 500%;
+}
+
+sub0 {
+	color: #2c6877;
+	font-family:'HG行書体', helvetica, arial, sans-serif;
+	font-size: 300%;
+}
+sub1 {
+	color: #2c6877;
+	font-family:'HG行書体', helvetica, arial, sans-serif;
+	font-size: 200%;
+}
+inden01 {
+
+}
+checkbox input[type="checkbox"]{
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto
+}
+input[type="button"]:hover {
+   /* マウスが載ったとき */
+   background-image: linear-gradient(0deg, #68d3db, #e5f4fc);
+   border: 1px solid #2c628b;
+}
+input[type="button"]:active {
+	color: #fff;
+	text-decoration: none;
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+input[type=submit] {
+	display: inline;
+	font-size: 110%;
+	width: auto;
+}
+left{
+	padding-left: 15em;
+}
+
+pechipechi {
+	align: center;
+}
+
+
+#fourtable table {
+	border: 5px solid #333;
+	border-color: #0f0;
+	align: center;
+	max-width: 400;
+	top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+}
+
+#fourtable tr {
+	border: 1px solid #333;
+	border-color: #FF6633;
+	padding: 5px;
+}
+
+#fourtable td {
+	border: 3px solid #333;
+	border-color: #FF6633;
+	padding: 10px;
+}
+#fourtable img{
+	align-self: center;
+	margin: 0;
+	width: 240px;
+	height: 240px;
+}
+
+
+
+#fourtable img:hover{
+}
